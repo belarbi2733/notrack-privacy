@@ -55,6 +55,15 @@ After that you can start the docker service
 ```bash
 docker-compose up -d
 ```
+### How to use ?
+
+You can use it as a normal proxy, but i will show a new way on how to use it
+- You need Mozzila Firefox browser
+- Install the `Multi Account Containers` addons [here](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
+- Install the `Container Proxy` addons [here](https://addons.mozilla.org/en-US/firefox/addon/container-proxy/)
+- Go to the `Multi Account Containers` and create a new container for example GAFAM
+- Go to the `Container Proxy` and add a new proxy
+- Configure the container GAFAM with the new proxy.
 
 If you have any feedback, please reach out to us at tking031@posteo.net
 ## :clap:  Supporters
