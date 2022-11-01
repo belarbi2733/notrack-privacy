@@ -1,0 +1,10 @@
+version: "3"
+services:
+  proxy:
+    image:  amine2733/squid:latest
+    ports:
+      - "8080:3128"
+    volumes:
+      - ./conf/squid.conf:/etc/squid/squid.conf
+      - ./conf/passwords:/etc/squid/passwords
+    restart: always
