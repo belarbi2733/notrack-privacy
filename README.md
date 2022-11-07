@@ -43,12 +43,12 @@ sudo apt update && sudo apt install apache2-utils -y
 ```
 If this is the first time you create a user
 ```bash
-htpassword -c /conf/passwords user
+htpassword -c conf/passwords user
 #You will then asked for password
 ```
 If you want to add more users
 ```bash
-htpassword -b /conf/passwords user
+htpassword -b conf/passwords user
 #You will then asked for password
 ```
 After that you can start the docker service
@@ -62,8 +62,18 @@ You can use it as a normal proxy, but i will show a new way on how to use it
 - Install the `Multi Account Containers` addons [here](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 - Install the `Container Proxy` addons [here](https://addons.mozilla.org/en-US/firefox/addon/container-proxy/)
 - Go to the `Multi Account Containers` and create a new container for example GAFAM
+<p align="center">
+  <img width="50%" src="images/new_container.gif" />
+</p>
 - Go to the `Container Proxy` and add a new proxy
 - Configure the container GAFAM with the new proxy.
+<p align="center">
+  <img width="50%" src="images/proxy_configgif.gif" />
+</p>
+- You see the results
+<p align="center">
+  <img width="50%" src="images/test.gif" />
+</p>
 
 If you have any feedback, please reach out to us at tking031@posteo.net
 ## :clap:  Supporters
