@@ -72,7 +72,7 @@ You can use it as a normal proxy, but i will show a new way on how to use it
 </p>
 - You see the results
 <p align="center">
-  <img width="50%" src="images/test.gif" />
+  <img width="80%" src="images/test.gif" />
 </p>
 
 If you have any feedback, please reach out to us at tking031@posteo.net
