@@ -43,12 +43,12 @@ sudo apt update && sudo apt install apache2-utils -y
 ```
 If this is the first time you create a user
 ```bash
-htpassword -c /conf/squid.conf user
+htpassword -c /conf/passwords user
 #You will then asked for password
 ```
 If you want to add more users
 ```bash
-htpassword -b /conf/squid.conf user
+htpassword -b /conf/passwords user
 #You will then asked for password
 ```
 After that you can start the docker service
