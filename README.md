@@ -1,11 +1,11 @@
 ## 💬 What is this?
-notrack-privacy is a project that used an open source solution called Squid as proxy.
+`notrack-privacy` is a project that used an open source solution called Squid as proxy to stop `GAFAM`to track you and collect your data.
 
-The idea is to use Firefox as browser and use the extension Firefox container.
+The idea is to use Firefox as browser and the extension [Firefox container](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/).
 
-You can create a new container called GAFAM. When you open one of this website, they will be opened in the GAFAM container but we will a proxy so they will not have the real ip adresse.
+You can create a new container called GAFAM. When you open one of this website (Google, Amzaon, etc.), they will be opened in the GAFAM container over a [proxy](https://en.wikipedia.org/wiki/Proxy_server), so they will not have your real ip adresse.
 
-We will our proxy server using docker. The proxy will be used within username and password.
+We will host our proxy server using docker. The proxy will be used within `username` and `password`.
 
 ## Show your support
 
@@ -65,7 +65,7 @@ You can use it as a normal proxy, but i will show a new way on how to use it
 <p align="center">
   <img width="50%" src="images/new_container.gif" />
 </p>
-- Go to the `Container Proxy` and add a new proxy
+- Go to the Container Proxy and add a new proxy
 - Configure the container GAFAM with the new proxy.
 <p align="center">
   <img width="50%" src="images/proxy_configgif.gif" />
